@@ -20,7 +20,7 @@
         mc:Ignorable="d"
         xmlns:prism="http://prismlibrary.com/"
         xmlns:metro="http://metro.mahapps.com/winfx/xaml/controls"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Bloomberg Terminal Solution" Height="450" Width="800">
     <Grid>
         <ContentControl prism:RegionManager.RegionName="MainContent" />
     </Grid>
