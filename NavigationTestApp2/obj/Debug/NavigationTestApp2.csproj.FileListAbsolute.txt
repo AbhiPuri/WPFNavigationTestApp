@@ -45,3 +45,5 @@ C:\Users\ahpu\source\repos\NavigationTestApp2\NavigationTestApp2\obj\Debug\Navig
 C:\Users\ahpu\source\repos\NavigationTestApp2\NavigationTestApp2\obj\Debug\NavigationTestApp2.csproj.CopyComplete
 C:\Users\ahpu\source\repos\NavigationTestApp2\NavigationTestApp2\obj\Debug\NavigationTestApp2.exe
 C:\Users\ahpu\source\repos\NavigationTestApp2\NavigationTestApp2\obj\Debug\NavigationTestApp2.pdb
+C:\Users\ahpu\source\repos\NavigationTestApp2\NavigationTestApp2\bin\Debug\log4net.dll
+C:\Users\ahpu\source\repos\NavigationTestApp2\NavigationTestApp2\bin\Debug\log4net.xml

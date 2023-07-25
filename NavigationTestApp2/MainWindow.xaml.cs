@@ -1,6 +1,7 @@
 ﻿using MahApps.Metro.Controls;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,6 +25,8 @@ namespace NavigationTestApp2
         public MainWindow()
         {
             InitializeComponent();
+
+            ConfigurationManager.AppSettings["userName"] = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
         }
     }
 }

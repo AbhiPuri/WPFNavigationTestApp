@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using NavigationTestApp2.View;
+using System.Configuration;
 
 namespace NavigationTestApp2.Module
 {
@@ -17,6 +18,8 @@ namespace NavigationTestApp2.Module
             var region = containerProvider.Resolve<IRegionManager>();
             region.RegisterViewWithRegion("MainContent", typeof(FirstView));
             //region.RegisterViewWithRegion("MainContent", typeof(FirstView));
+
+            log4net.Config.BasicConfigurator.Configure();
         }
 
         public void RegisterTypes(IContainerRegistry containerRegistry)
