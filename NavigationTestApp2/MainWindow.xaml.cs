@@ -25,8 +25,6 @@ namespace NavigationTestApp2
         public MainWindow()
         {
             InitializeComponent();
-
-            ConfigurationManager.AppSettings["userName"] = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
         }
     }
 }
